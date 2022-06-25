@@ -7,7 +7,7 @@ e exibir no console as informações dos objetos.
 */
 
 const listaPessoas = (listaPessoas) => {
-  for (pessoa of listaPessoas) {
+  for (let pessoa of listaPessoas) {
     let nome = pessoa.nome;
     let idade = pessoa.idade;
     let corPreferida = pessoa.corPreferida;
